@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-    background-color:#e7eee8 ;
+    /* background-color:#e7eee8 ; */
     max-width: 95%;
     margin: 0 auto;
     padding: 8px;
@@ -28,11 +28,11 @@ body{
     margin-left: 8px;
     margin-right: 8px;
     padding: 12px;
-    background-color: #e7a67d;
+    background-color: #ecc4a9;
 }
 
 h1{ 
-    background-color:#c97d4e;
+    background-color:#de8f5f;
     color: black;
     font-size: 2rem;
     text-align: center;
@@ -40,6 +40,9 @@ h1{
 }
 strong{
     font-size: 1.5rem;
+}
+p{
+    text-align: justify;
 }
 
 a{

@@ -31,3 +31,6 @@ ol,ul{
     text-align: center;
     font-size: 25px;
 }
+p,ol,ul,li{
+    text-align: justify;
+}

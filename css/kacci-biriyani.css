@@ -29,6 +29,9 @@ h2{
     font-size: 40px;
     margin: 20px;
 }
+p,ol,ul,li{
+    text-align: justify;
+}
 .Description{
     margin:20px 20px;
 }
