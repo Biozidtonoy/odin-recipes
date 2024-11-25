@@ -1,14 +1,33 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 10px 0;
+}
 h1{
     background-color: #DE8F5F;
     text-align: center;
 }
-div{
+.img1{
     text-align: center;
+}
+.beef{
+    width: 450px;
+    height: 300px;
 }
 h2{
     text-align: center;
+    color: #DE8F5F;
     font-size: 40px;
 }
-a{
+.Description{
+    margin: 20px 20px;
+}
+ol,ul{
+    margin: 20px 20px;
+}
+
+.link{
+    text-align: center;
     font-size: 25px;
 }
