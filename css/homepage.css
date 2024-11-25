@@ -1,11 +1,52 @@
-h1{
-    background-color:#DE8F5F;
-    color: black;
-    font-size: 45px;
-    text-align: center;
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 10px 0;
 }
-a{
+/* 
+#f2f9f1
+#ddeedf
+#b6cdbd
+#5c715e
+*/
+
+body{
+    max-width:max-content;
+    background-color: #f2f9f1;
+}
+
+.container{
+    background-color:#e7eee8 ;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 8px;
+
+}
+.box{
+    margin: 10px;
+    padding: 12px;
+    background-color: #e7a67d;
+}
+
+h1{ 
+    background-color:#c97d4e;
     color: black;
-    font-size: 25px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+strong{
+    font-size: 1.5rem;
+}
+
+a{
+    color: #064185;
     line-height: 1.6;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: rgb(179, 1, 179);
 }
