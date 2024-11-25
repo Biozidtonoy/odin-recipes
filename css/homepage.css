@@ -24,7 +24,9 @@ body{
 
 }
 .box{
-    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
     padding: 12px;
     background-color: #e7a67d;
 }
@@ -47,6 +49,6 @@ a{
 a:hover{
     color: white;
 }
-a:visited{
+/* a:visited{
     color: rgb(179, 1, 179);
-}
+} */
