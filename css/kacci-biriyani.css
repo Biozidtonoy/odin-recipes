@@ -1,16 +1,46 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+body{
+    max-width:max-content;
+    background-color: #f2f9f1;
+}
+
 h1{
     background-color: #DE8F5F;
     text-align: center;
 }
 
-div{
+.img1{
     text-align: center;
+}
+
+.kacchi{
+    height: 300px;
+    width: 450px;
 }
 h2{
     text-align: center;
+    color: #de8f5f;
     font-size: 40px;
+    margin: 20px;
 }
-a{
+.Description{
+    margin:20px 20px;
+}
+ol,ul{
+    margin: 20px 20px;
+}
+
+.notes{
+    margin: 20px 20px;
+}
+.link{
+    text-align: center;
     font-size: 25px;
 }
 
