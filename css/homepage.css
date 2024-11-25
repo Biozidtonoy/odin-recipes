@@ -2,7 +2,7 @@
 *::before,
 *::after{
     box-sizing: border-box;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 /* 
 #f2f9f1
@@ -16,6 +16,23 @@ body{
     background-color: #f2f9f1;
 }
 
+.title { 
+    background-color: #de8f5f;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 3px;
+
+}
+.logo{
+    text-align: center;
+    margin-bottom: 0;
+}
+.logo1{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 0px;
+}
 .container{
     /* background-color:#e7eee8 ; */
     max-width: 95%;
@@ -31,13 +48,6 @@ body{
     background-color: #ecc4a9;
 }
 
-h1{ 
-    background-color:#de8f5f;
-    color: black;
-    font-size: 2rem;
-    text-align: center;
-    padding: 10px;
-}
 strong{
     font-size: 1.5rem;
 }
